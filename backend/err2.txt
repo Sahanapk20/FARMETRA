@@ -1,0 +1,11 @@
+Error: Virtual path "qrCode" conflicts with a real path in the schema
+    at Schema.virtual (C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\lib\schema.js:2605:11)
+    at Schema.virtual (C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\lib\schema.js:2512:26)
+    at Object.<anonymous> (C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\src\models\Batch.js:48:13)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)

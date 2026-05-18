@@ -1,0 +1,21 @@
+﻿
+> agrilogistics@0.0.0 build
+> tsc -b && vite build
+
+src/components/Chatbot.tsx(73,7): error TS6133: 'GEMINI_API_URL' is declared but its value is never read.
+src/components/Payment.tsx(1,20): error TS6133: 'useEffect' is declared but its value is never read.
+src/pages/dashboard/AddEventPage.tsx(7,5): error TS6133: 'Clock' is declared but its value is never read.
+src/pages/dashboard/AddEventPage.tsx(8,5): error TS6133: 'Upload' is declared but its value is never read.
+src/pages/dashboard/AnalyticsPage.tsx(3,5): error TS6133: 'BarChart3' is declared but its value is never read.
+src/pages/dashboard/AnalyticsPage.tsx(26,5): error TS6133: 'LineChart' is declared but its value is never read.
+src/pages/dashboard/AnalyticsPage.tsx(27,5): error TS6133: 'Line' is declared but its value is never read.
+src/pages/dashboard/QRScannerPage.tsx(39,12): error TS6133: 'hasPermission' is declared but its value is never read.
+src/pages/public/ForgotPasswordPage.tsx(3,33): error TS6133: 'Loader' is declared but its value is never read.
+src/pages/public/LoginPage.tsx(15,11): error TS6133: 'tc' is declared but its value is never read.
+src/pages/public/RegisterPage.tsx(22,48): error TS2345: Argument of type '"roles"' is not assignable to parameter of type '"landingExtended" | "authExtended" | "common" | "navigation" | "errors"'.
+src/pages/public/ResetPasswordPage.tsx(3,33): error TS6133: 'ArrowRight' is declared but its value is never read.
+src/pages/public/ResetPasswordPage.tsx(3,45): error TS6133: 'Loader' is declared but its value is never read.
+src/pages/public/ResetPasswordPage.tsx(3,79): error TS6133: 'Eye' is declared but its value is never read.
+src/pages/public/ResetPasswordPage.tsx(3,84): error TS6133: 'EyeOff' is declared but its value is never read.
+src/pages/public/ResetPasswordPage.tsx(18,26): error TS6133: 'setShowPassword' is declared but its value is never read.
+src/pages/public/VerifyPage.tsx(459,77): error TS6133: 'idx' is declared but its value is never read.

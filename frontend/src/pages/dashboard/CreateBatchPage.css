@@ -1,0 +1,851 @@
+/* ========================================
+   CREATE BATCH PAGE STYLES
+======================================== */
+
+.create-batch-page {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.page-header .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--neutral-600);
+    font-weight: 500;
+    margin-bottom: var(--space-4);
+    padding: var(--space-2) 0;
+    transition: color var(--transition-fast);
+}
+
+.page-header .back-btn:hover {
+    color: var(--neutral-900);
+}
+
+/* Progress Steps */
+.create-steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    padding: var(--space-6);
+    background: white;
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--neutral-100);
+    margin-bottom: var(--space-6);
+}
+
+.create-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.step-circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--neutral-100);
+    border: 2px solid var(--neutral-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--neutral-400);
+    transition: all var(--transition-base);
+}
+
+.create-step.active .step-circle {
+    background: var(--primary-500);
+    border-color: var(--primary-500);
+    color: white;
+    box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.2);
+}
+
+.create-step.complete .step-circle {
+    background: var(--success);
+    border-color: var(--success);
+    color: white;
+}
+
+.step-label {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--neutral-400);
+    transition: color var(--transition-base);
+}
+
+.create-step.active .step-label,
+.create-step.complete .step-label {
+    color: var(--neutral-700);
+}
+
+.create-steps .step-connector {
+    width: 60px;
+    height: 2px;
+    background: var(--neutral-200);
+    margin-bottom: var(--space-6);
+}
+
+/* Form Container */
+.create-form-container {
+    background: white;
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--neutral-100);
+    overflow: hidden;
+}
+
+.form-section {
+    padding: var(--space-8);
+}
+
+.section-header {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-4);
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--neutral-100);
+    margin-bottom: var(--space-6);
+}
+
+.section-header svg {
+    color: var(--primary-500);
+    flex-shrink: 0;
+    margin-top: var(--space-1);
+}
+
+.section-header h2 {
+    font-size: 1.25rem;
+    margin-bottom: var(--space-1);
+}
+
+.section-header p {
+    font-size: 0.875rem;
+    color: var(--neutral-500);
+}
+
+/* Form Grid */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-5);
+}
+
+.form-grid .full-width {
+    grid-column: span 2;
+}
+
+.input-addon-group {
+    display: flex;
+    gap: 0;
+}
+
+.input-addon-group .input {
+    border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+    flex: 1;
+}
+
+.input-addon {
+    padding: var(--space-3) var(--space-4);
+    background: var(--neutral-50);
+    border: 2px solid var(--neutral-200);
+    border-left: none;
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+    font-size: 0.9375rem;
+    color: var(--neutral-600);
+    min-width: 100px;
+}
+
+/* Certification Grid */
+.certification-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+}
+
+.cert-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    background: var(--neutral-50);
+    border: 2px solid var(--neutral-200);
+    border-radius: var(--radius-full);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--neutral-600);
+    transition: all var(--transition-fast);
+}
+
+.cert-tag:hover {
+    border-color: var(--primary-300);
+    background: var(--primary-50);
+}
+
+.cert-tag.selected {
+    background: var(--primary-100);
+    border-color: var(--primary-500);
+    color: var(--primary-700);
+}
+
+/* Form Actions */
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--space-4);
+    padding-top: var(--space-8);
+    margin-top: var(--space-6);
+    border-top: 1px solid var(--neutral-100);
+}
+
+/* Review Card */
+.review-card {
+    background: var(--neutral-50);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+}
+
+.review-section {
+    margin-bottom: var(--space-6);
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--neutral-200);
+}
+
+.review-section:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.review-section h4 {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--neutral-500);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-4);
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+}
+
+.review-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+}
+
+.review-label {
+    font-size: 0.8125rem;
+    color: var(--neutral-500);
+}
+
+.review-value {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--neutral-900);
+    text-transform: capitalize;
+}
+
+.review-certs {
+    margin-top: var(--space-4);
+}
+
+.cert-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
+}
+
+.review-options {
+    margin-top: var(--space-6);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--neutral-200);
+}
+
+/* Info Banner */
+.info-banner {
+    display: flex;
+    gap: var(--space-4);
+    padding: var(--space-5);
+    background: var(--info-light);
+    border-radius: var(--radius-lg);
+    margin-top: var(--space-6);
+}
+
+.info-banner svg {
+    color: var(--info);
+    flex-shrink: 0;
+}
+
+.info-banner p {
+    font-size: 0.875rem;
+    color: var(--neutral-700);
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .form-section {
+        padding: var(--space-6);
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-grid .full-width {
+        grid-column: span 1;
+    }
+
+    .review-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .create-steps {
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+
+    .create-steps .step-connector {
+        width: 2px;
+        height: 24px;
+        margin: 0;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .form-actions .btn {
+        width: 100%;
+    }
+}
+
+/* File Upload */
+.file-upload-area {
+    margin-top: var(--space-3);
+}
+
+.file-upload-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-6);
+    background: var(--neutral-50);
+    border: 2px dashed var(--neutral-300);
+    border-radius: var(--radius-xl);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.file-upload-btn:hover {
+    border-color: var(--primary-400);
+    background: var(--primary-50);
+}
+
+.file-upload-btn svg {
+    color: var(--neutral-400);
+}
+
+.file-upload-btn span {
+    color: var(--neutral-600);
+    font-weight: 500;
+}
+
+.file-upload-btn .file-hint {
+    font-size: 0.75rem;
+    color: var(--neutral-400);
+    font-weight: 400;
+}
+
+.uploaded-files {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+}
+
+.uploaded-file-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    background: var(--success-light);
+    border: 1px solid var(--success);
+    border-radius: var(--radius-lg);
+}
+
+.uploaded-file-item .file-name {
+    flex: 1;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--neutral-700);
+}
+
+.uploaded-file-item .file-size {
+    font-size: 0.75rem;
+    color: var(--neutral-500);
+}
+
+.file-remove-btn {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid var(--neutral-200);
+    border-radius: 50%;
+    color: var(--neutral-500);
+    cursor: pointer;
+}
+
+.file-remove-btn:hover {
+    background: var(--error-light);
+    border-color: var(--error);
+    color: var(--error);
+}
+/* Transfer to Processor Option */
+.transfer-option {
+    margin-top: var(--space-4);
+    padding: var(--space-4);
+    background: linear-gradient(135deg, var(--primary-50), var(--accent-light));
+    border: 2px solid var(--primary-200);
+    border-radius: var(--radius-xl);
+    transition: all var(--transition-fast);
+}
+
+.transfer-option:hover {
+    border-color: var(--primary-400);
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.15);
+}
+
+.transfer-option .checkbox-label {
+    font-weight: 500;
+    color: var(--neutral-700);
+}
+
+.transfer-option .checkbox-label span svg {
+    color: var(--primary-500);
+}
+
+.processor-select {
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.processor-select select {
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+    background: white;
+    border: 2px solid var(--primary-300);
+    border-radius: var(--radius-lg);
+    font-size: 0.95rem;
+    color: var(--neutral-700);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.processor-select select:focus {
+    outline: none;
+    border-color: var(--primary-500);
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
+.processor-select select option {
+    padding: var(--space-2);
+}
+
+/* ========================================
+   CERTIFICATION UPLOAD & INFO STYLES
+======================================== */
+
+/* Certificate Yes/No Toggle */
+.cert-toggle-group {
+    display: flex;
+    gap: var(--space-4);
+    margin-top: var(--space-3);
+}
+
+.cert-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-4) var(--space-6);
+    background: white;
+    border: 2px solid var(--neutral-300);
+    border-radius: var(--radius-lg);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--neutral-600);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    flex: 1;
+    justify-content: center;
+}
+
+.cert-toggle-btn:hover {
+    border-color: var(--primary-400);
+    background: var(--primary-50);
+}
+
+.cert-toggle-btn.selected {
+    background: var(--primary-500);
+    border-color: var(--primary-500);
+    color: white;
+}
+
+.cert-toggle-btn.selected svg {
+    color: white;
+}
+
+.cert-warning {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-4);
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    border-radius: var(--radius-lg);
+    color: var(--warning);
+    font-size: 0.875rem;
+    margin-top: var(--space-3);
+}
+
+.cert-upload-intro {
+    font-size: 0.875rem;
+    color: var(--neutral-600);
+    margin-bottom: var(--space-4);
+    padding: var(--space-3);
+    background: var(--info-light);
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--info);
+}
+.cert-help-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-left: var(--space-2);
+    background: var(--primary-100);
+    border: none;
+    border-radius: 50%;
+    color: var(--primary-600);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    vertical-align: middle;
+}
+
+.cert-help-btn:hover {
+    background: var(--primary-200);
+    color: var(--primary-700);
+}
+
+/* Certificate Upload Section */
+.cert-upload-section {
+    background: var(--neutral-50);
+    border: 1px solid var(--neutral-200);
+    border-radius: var(--radius-xl);
+    padding: var(--space-5);
+    margin-top: var(--space-4);
+}
+
+.cert-upload-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-4);
+    margin-top: var(--space-4);
+}
+
+.cert-upload-item {
+    background: white;
+    border: 2px solid var(--neutral-200);
+    border-radius: var(--radius-lg);
+    padding: var(--space-4);
+    transition: all var(--transition-fast);
+}
+
+.cert-upload-item:hover {
+    border-color: var(--primary-300);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.cert-upload-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-3);
+    padding-bottom: var(--space-3);
+    border-bottom: 1px solid var(--neutral-100);
+}
+
+.cert-upload-header .cert-name {
+    font-weight: 600;
+    color: var(--neutral-800);
+}
+
+.cert-upload-input {
+    position: relative;
+}
+
+.file-input-hidden {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.file-upload-label {
+    display: block;
+    cursor: pointer;
+}
+
+.file-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    padding: var(--space-4);
+    background: var(--neutral-50);
+    border: 2px dashed var(--neutral-300);
+    border-radius: var(--radius-lg);
+    color: var(--neutral-600);
+    font-weight: 500;
+    transition: all var(--transition-fast);
+}
+
+.file-placeholder:hover {
+    border-color: var(--primary-400);
+    background: var(--primary-50);
+    color: var(--primary-600);
+}
+
+.file-selected {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-4);
+    background: var(--success-light);
+    border: 1px solid var(--success);
+    border-radius: var(--radius-lg);
+    color: var(--neutral-700);
+    font-size: 0.875rem;
+}
+
+.file-selected .file-remove-btn {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid var(--neutral-200);
+    border-radius: 50%;
+    color: var(--neutral-500);
+    cursor: pointer;
+    margin-left: auto;
+    transition: all var(--transition-fast);
+}
+
+.file-selected .file-remove-btn:hover {
+    background: var(--error-light);
+    border-color: var(--error);
+    color: var(--error);
+}
+
+.cert-upload-hint {
+    display: block;
+    margin-top: var(--space-2);
+    font-size: 0.75rem;
+    color: var(--neutral-500);
+}
+
+/* Certification Info Modal */
+.cert-info-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: var(--space-4);
+    animation: fadeIn 0.2s ease;
+}
+
+.cert-info-modal {
+    background: white;
+    border-radius: var(--radius-xl);
+    max-width: 600px;
+    width: 100%;
+    max-height: 80vh;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    animation: slideUp 0.3s ease;
+}
+
+.cert-info-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-5) var(--space-6);
+    border-bottom: 1px solid var(--neutral-100);
+}
+
+.cert-info-header h3 {
+    font-size: 1.25rem;
+    color: var(--neutral-800);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.cert-info-close {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--neutral-100);
+    border: none;
+    border-radius: 50%;
+    color: var(--neutral-500);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.cert-info-close:hover {
+    background: var(--error-light);
+    color: var(--error);
+}
+
+.cert-info-content {
+    padding: var(--space-5) var(--space-6);
+    overflow-y: auto;
+    max-height: calc(80vh - 80px);
+}
+
+.cert-guide-intro {
+    font-size: 0.9375rem;
+    color: var(--neutral-600);
+    line-height: 1.6;
+    margin-bottom: var(--space-5);
+    padding: var(--space-4);
+    background: var(--primary-50);
+    border-left: 4px solid var(--primary-500);
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+}
+
+.cert-guide-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.cert-guide-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-4);
+    padding: var(--space-4);
+    background: var(--neutral-50);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-fast);
+}
+
+.cert-guide-item:hover {
+    background: var(--primary-50);
+}
+
+.cert-guide-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: var(--radius-lg);
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.cert-guide-details h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--neutral-800);
+    margin-bottom: var(--space-1);
+}
+
+.cert-guide-details p {
+    font-size: 0.875rem;
+    color: var(--neutral-600);
+    line-height: 1.5;
+}
+
+.cert-detail {
+    font-size: 1rem;
+    color: var(--neutral-700);
+    line-height: 1.7;
+    padding: var(--space-4);
+    background: var(--neutral-50);
+    border-radius: var(--radius-lg);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cert-upload-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .cert-info-modal {
+        max-height: 90vh;
+        margin: var(--space-4);
+    }
+    
+    .cert-info-content {
+        max-height: calc(90vh - 80px);
+    }
+    
+    .cert-guide-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

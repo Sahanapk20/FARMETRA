@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# # Environment variables
+# .env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Uploads / Static
+uploads/
+
+# ML Datasets & Models
+ml/dataset/
+**/*.JPG
+**/*.jpg
+**/*.png
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Misc
+*.pem

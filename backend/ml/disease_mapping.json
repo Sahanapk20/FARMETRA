@@ -1,0 +1,268 @@
+{
+  "Apple___Apple_scab": {
+    "displayName": "Apple Scab",
+    "explanation": "Fungal disease caused by Venturia inaequalis. Causes olive-green to black spots on leaves and fruit, leading to premature leaf drop and fruit deformation.",
+    "recommendation": "Apply fungicides during bud break and after petal fall. Remove fallen leaves and fruit. Prune for better air circulation. Plant resistant varieties.",
+    "preventionTips": "Choose scab-resistant apple varieties. Maintain proper spacing between trees. Avoid overhead irrigation. Apply preventive fungicides in early spring.",
+    "severity": "Moderate to severe"
+  },
+  "Apple___Black_rot": {
+    "displayName": "Apple Black Rot",
+    "explanation": "Fungal disease caused by Botryosphaeria obtusa. Causes purple leaf spots that turn brown with black margins, and black rot on fruit.",
+    "recommendation": "Remove mummified fruit and cankers. Apply fungicides during bloom and after petal fall. Prune infected branches.",
+    "preventionTips": "Sanitize orchard by removing diseased wood and fruit. Apply dormant sprays. Ensure good air circulation through proper pruning.",
+    "severity": "Severe"
+  },
+  "Apple___Cedar_apple_rust": {
+    "displayName": "Cedar Apple Rust",
+    "explanation": "Fungal disease requiring both cedar and apple trees. Causes orange-yellow spots on leaves and fruit, leading to premature defoliation.",
+    "recommendation": "Remove nearby cedar trees if possible. Apply fungicides before bloom and during infection periods. Plant resistant varieties.",
+    "preventionTips": "Avoid planting apples near cedar trees. Use rust-resistant apple varieties. Apply preventive fungicides in spring.",
+    "severity": "Moderate"
+  },
+  "Apple___healthy": {
+    "displayName": "Healthy Apple",
+    "explanation": "No visible signs of disease detected. Plant appears healthy with normal leaf color and growth.",
+    "recommendation": "Continue regular maintenance including proper watering, fertilization, and pruning. Monitor for any changes.",
+    "preventionTips": "Maintain good orchard hygiene. Regular inspection for early disease detection. Proper nutrition and irrigation.",
+    "severity": "None"
+  },
+  "Blueberry___healthy": {
+    "displayName": "Healthy Blueberry",
+    "explanation": "No visible signs of disease detected. Plant shows healthy growth with normal leaf color.",
+    "recommendation": "Continue standard care including proper soil pH maintenance (4.5-5.5), regular watering, and mulching.",
+    "preventionTips": "Maintain acidic soil conditions. Ensure good drainage. Regular pruning for air circulation.",
+    "severity": "None"
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "displayName": "Cherry Powdery Mildew",
+    "explanation": "Fungal disease causing white powdery coating on leaves, shoots, and fruit. Can lead to reduced fruit quality and yield.",
+    "recommendation": "Apply sulfur-based fungicides. Improve air circulation through pruning. Remove infected plant material.",
+    "preventionTips": "Plant resistant varieties. Avoid overhead irrigation. Maintain proper plant spacing. Apply preventive fungicides.",
+    "severity": "Moderate"
+  },
+  "Cherry_(including_sour)___healthy": {
+    "displayName": "Healthy Cherry",
+    "explanation": "No visible signs of disease detected. Plant shows healthy growth and normal leaf appearance.",
+    "recommendation": "Continue regular care including proper pruning, watering, and fertilization. Monitor for pest activity.",
+    "preventionTips": "Regular sanitation around trees. Proper pruning techniques. Monitor for common cherry pests.",
+    "severity": "None"
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "displayName": "Corn Gray Leaf Spot",
+    "explanation": "Fungal disease caused by Cercospora zeae-maydis. Causes rectangular gray lesions on leaves, reducing photosynthesis and yield.",
+    "recommendation": "Apply fungicides at early disease onset. Use resistant hybrids. Rotate crops to reduce inoculum.",
+    "preventionTips": "Plant resistant corn hybrids. Practice crop rotation. Avoid continuous corn planting. Use tillage to bury residue.",
+    "severity": "Moderate to severe"
+  },
+  "Corn_(maize)___Common_rust_": {
+    "displayName": "Corn Common Rust",
+    "explanation": "Fungal disease caused by Puccinia sorghi. Produces reddish-brown pustules on leaves, reducing photosynthetic area.",
+    "recommendation": "Apply fungicides when rust is detected early. Plant resistant hybrids. Avoid late planting.",
+    "preventionTips": "Use rust-resistant hybrids. Plant early to avoid peak rust season. Scout fields regularly for early detection.",
+    "severity": "Moderate"
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "displayName": "Corn Northern Leaf Blight",
+    "explanation": "Fungal disease caused by Exserohilum turcicum. Causes long, cigar-shaped lesions on leaves, significantly reducing yield.",
+    "recommendation": "Apply fungicides at early disease stages. Use resistant hybrids. Rotate crops and till residue.",
+    "preventionTips": "Plant resistant hybrids. Practice crop rotation. Use tillage to bury infected residue. Avoid continuous corn.",
+    "severity": "Severe"
+  },
+  "Corn_(maize)___healthy": {
+    "displayName": "Healthy Corn",
+    "explanation": "No visible signs of disease detected. Plant shows healthy growth with normal leaf color and development.",
+    "recommendation": "Continue standard corn management including proper fertilization, irrigation, and pest monitoring.",
+    "preventionTips": "Maintain proper plant density. Ensure adequate nutrition. Regular field scouting.",
+    "severity": "None"
+  },
+  "Grape___Black_rot": {
+    "displayName": "Grape Black Rot",
+    "explanation": "Fungal disease caused by Guignardia bidwellii. Causes brown circular lesions on leaves and fruit rot with black pycnidia.",
+    "recommendation": "Apply fungicides from bloom through harvest. Remove mummified fruit. Prune for air circulation.",
+    "preventionTips": "Sanitize vineyard by removing diseased fruit. Use resistant varieties when possible. Improve air circulation.",
+    "severity": "Severe"
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "displayName": "Grape Esca (Black Measles)",
+    "explanation": "Complex fungal disease causing tiger-stripe leaf patterns, fruit bleaching, and vine decline. Difficult to control.",
+    "recommendation": "Remove infected wood during pruning. Apply fungicides to pruning wounds. Maintain vine health.",
+    "preventionTips": "Avoid large pruning wounds. Disinfect tools between vines. Maintain balanced vine nutrition.",
+    "severity": "Severe"
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "displayName": "Grape Leaf Blight",
+    "explanation": "Fungal disease causing brown lesions with dark borders on leaves. Can lead to premature defoliation.",
+    "recommendation": "Apply fungicides during wet periods. Remove infected leaves. Improve air circulation.",
+    "preventionTips": "Manage canopy density. Avoid overhead irrigation. Apply preventive fungicides in wet conditions.",
+    "severity": "Moderate"
+  },
+  "Grape___healthy": {
+    "displayName": "Healthy Grape",
+    "explanation": "No visible signs of disease detected. Vine shows healthy growth with normal leaf color and fruit development.",
+    "recommendation": "Continue standard vineyard management including proper pruning, irrigation, and nutrition.",
+    "preventionTips": "Regular canopy management. Balanced fertilization. Monitor for pest and disease pressure.",
+    "severity": "None"
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "displayName": "Citrus Greening (HLB)",
+    "explanation": "Bacterial disease spread by Asian citrus psyllid. Causes yellowing of leaves, bitter fruit, and tree decline. Currently incurable.",
+    "recommendation": "Remove infected trees to prevent spread. Control psyllid population. Use healthy nursery stock.",
+    "preventionTips": "Monitor for psyllid activity. Use certified disease-free trees. Implement area-wide pest management.",
+    "severity": "Very severe"
+  },
+  "Peach___Bacterial_spot": {
+    "displayName": "Peach Bacterial Spot",
+    "explanation": "Bacterial disease caused by Xanthomonas arboricola. Causes small water-soaked spots on leaves, fruit, and twigs.",
+    "recommendation": "Apply copper bactericides during dormant season. Avoid overhead irrigation. Remove infected tissue.",
+    "preventionTips": "Plant resistant varieties. Avoid working with wet foliage. Maintain proper tree spacing.",
+    "severity": "Moderate to severe"
+  },
+  "Peach___healthy": {
+    "displayName": "Healthy Peach",
+    "explanation": "No visible signs of disease detected. Tree shows healthy growth with normal leaf color and fruit development.",
+    "recommendation": "Continue standard peach care including proper thinning, irrigation, and fertilization.",
+    "preventionTips": "Regular pruning for structure and air circulation. Monitor for common peach diseases.",
+    "severity": "None"
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "displayName": "Pepper Bacterial Spot",
+    "explanation": "Bacterial disease causing water-soaked spots on leaves and fruit. Can lead to defoliation and fruit loss.",
+    "recommendation": "Use disease-free seeds and transplants. Apply copper bactericides. Avoid overhead irrigation.",
+    "preventionTips": "Crop rotation. Use resistant varieties. Sanitize equipment. Avoid working with wet plants.",
+    "severity": "Moderate to severe"
+  },
+  "Pepper,_bell___healthy": {
+    "displayName": "Healthy Pepper",
+    "explanation": "No visible signs of disease detected. Plant shows healthy growth with normal leaf color and fruit development.",
+    "recommendation": "Continue standard pepper care including proper staking, irrigation, and fertilization.",
+    "preventionTips": "Maintain proper plant spacing. Monitor for common pepper pests and diseases.",
+    "severity": "None"
+  },
+  "Potato___Early_blight": {
+    "displayName": "Potato Early Blight",
+    "explanation": "Fungal disease caused by Alternaria solani. Causes dark concentric rings on lower leaves, leading to premature defoliation.",
+    "recommendation": "Apply fungicides at first sign of disease. Remove infected leaves. Ensure proper plant spacing.",
+    "preventionTips": "Use resistant varieties. Crop rotation. Avoid overhead irrigation. Maintain plant vigor.",
+    "severity": "Moderate to severe"
+  },
+  "Potato___Late_blight": {
+    "displayName": "Potato Late Blight",
+    "explanation": "Devastating fungal disease caused by Phytophthora infestans. Causes water-soaked lesions that quickly turn black.",
+    "recommendation": "Apply protective fungicides before infection. Destroy infected plants immediately. Avoid planting near tomatoes.",
+    "preventionTips": "Use resistant varieties. Plant certified seed potatoes. Avoid overhead irrigation. Scout fields regularly.",
+    "severity": "Very severe"
+  },
+  "Potato___healthy": {
+    "displayName": "Healthy Potato",
+    "explanation": "No visible signs of disease detected. Plant shows healthy growth with normal leaf color and tuber development.",
+    "recommendation": "Continue standard potato care including proper hilling, irrigation, and pest monitoring.",
+    "preventionTips": "Use certified seed potatoes. Crop rotation. Proper soil drainage.",
+    "severity": "None"
+  },
+  "Raspberry___healthy": {
+    "displayName": "Healthy Raspberry",
+    "explanation": "No visible signs of disease detected. Canes show healthy growth with normal leaf color and fruit development.",
+    "recommendation": "Continue standard raspberry care including proper pruning, trellising, and irrigation.",
+    "preventionTips": "Regular pruning of old canes. Maintain proper spacing. Monitor for common raspberry diseases.",
+    "severity": "None"
+  },
+  "Soybean___healthy": {
+    "displayName": "Healthy Soybean",
+    "explanation": "No visible signs of disease detected. Plant shows healthy growth with normal leaf color and pod development.",
+    "recommendation": "Continue standard soybean management including proper planting density, fertilization, and pest monitoring.",
+    "preventionTips": "Crop rotation. Use disease-free seeds. Regular field scouting.",
+    "severity": "None"
+  },
+  "Squash___Powdery_mildew": {
+    "displayName": "Squash Powdery Mildew",
+    "explanation": "Fungal disease causing white powdery coating on leaves. Reduces photosynthesis and can cause premature death.",
+    "recommendation": "Apply sulfur or neem oil fungicides. Remove severely infected leaves. Improve air circulation.",
+    "preventionTips": "Plant resistant varieties. Avoid overhead irrigation. Maintain proper plant spacing.",
+    "severity": "Moderate to severe"
+  },
+  "Strawberry___Leaf_scorch": {
+    "displayName": "Strawberry Leaf Scorch",
+    "explanation": "Fungal disease causing purple to brown spots on leaves with yellow halos. Can reduce plant vigor and yield.",
+    "recommendation": "Remove infected leaves. Apply fungicides during bloom. Use disease-free planting material.",
+    "preventionTips": "Use certified disease-free plants. Proper plant spacing. Avoid overhead irrigation.",
+    "severity": "Moderate"
+  },
+  "Strawberry___healthy": {
+    "displayName": "Healthy Strawberry",
+    "explanation": "No visible signs of disease detected. Plant shows healthy growth with normal leaf color and fruit development.",
+    "recommendation": "Continue standard strawberry care including proper mulching, irrigation, and renovation.",
+    "preventionTips": "Use certified disease-free plants. Proper bed management. Regular renovation.",
+    "severity": "None"
+  },
+  "Tomato___Bacterial_spot": {
+    "displayName": "Tomato Bacterial Spot",
+    "explanation": "Bacterial disease causing water-soaked spots on leaves, stems, and fruit. Can lead to defoliation and fruit loss.",
+    "recommendation": "Use disease-free seeds and transplants. Apply copper bactericides. Avoid overhead irrigation.",
+    "preventionTips": "Crop rotation. Use resistant varieties. Sanitize garden tools. Avoid working with wet plants.",
+    "severity": "Moderate to severe"
+  },
+  "Tomato___Early_blight": {
+    "displayName": "Tomato Early Blight",
+    "explanation": "Fungal disease caused by Alternaria solani. Causes dark concentric rings on lower leaves, leading to premature defoliation.",
+    "recommendation": "Remove infected lower leaves. Apply copper-based fungicides. Ensure proper spacing for air circulation. Stake plants.",
+    "preventionTips": "Use resistant varieties. Crop rotation. Avoid overhead irrigation. Mulch to prevent soil splash.",
+    "severity": "Moderate to severe"
+  },
+  "Tomato___Late_blight": {
+    "displayName": "Tomato Late Blight",
+    "explanation": "Devastating fungal disease caused by Phytophthora infestans. Causes water-soaked lesions that quickly turn black and spread.",
+    "recommendation": "Apply protective fungicides preventatively. Remove infected plants immediately. Avoid planting near potatoes.",
+    "preventionTips": "Use resistant varieties. Plant certified disease-free seedlings. Avoid overhead irrigation. Scout regularly.",
+    "severity": "Very severe"
+  },
+  "Tomato___Leaf_Mold": {
+    "displayName": "Tomato Leaf Mold",
+    "explanation": "Fungal disease causing yellow spots on upper leaf surfaces and olive-green mold on undersides. Common in greenhouses.",
+    "recommendation": "Improve air circulation and reduce humidity. Apply fungicides. Remove infected leaves.",
+    "preventionTips": "Maintain good ventilation in greenhouses. Avoid overhead irrigation. Space plants properly.",
+    "severity": "Moderate"
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "displayName": "Tomato Septoria Leaf Spot",
+    "explanation": "Fungal disease causing small circular spots with dark borders and gray centers on lower leaves.",
+    "recommendation": "Remove infected lower leaves. Apply fungicides. Mulch to prevent soil splash. Stake plants.",
+    "preventionTips": "Crop rotation. Avoid overhead irrigation. Remove plant debris. Ensure good air circulation.",
+    "severity": "Moderate to severe"
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "displayName": "Tomato Spider Mites",
+    "explanation": "Pest causing yellow stippling on leaves and fine webbing. Can cause severe defoliation if untreated.",
+    "recommendation": "Wash plants with water to remove mites. Apply miticides or insecticidal soap. Encourage natural predators.",
+    "preventionTips": "Maintain adequate humidity. Avoid excessive nitrogen fertilization. Regularly inspect undersides of leaves.",
+    "severity": "Moderate to severe"
+  },
+  "Tomato___Target_Spot": {
+    "displayName": "Tomato Target Spot",
+    "explanation": "Fungal disease causing concentric ring patterns on leaves and fruit. Similar to early blight but with different pathogen.",
+    "recommendation": "Apply fungicides at first symptoms. Remove infected plant material. Improve air circulation.",
+    "preventionTips": "Use resistant varieties. Crop rotation. Avoid overhead irrigation. Sanitize garden tools.",
+    "severity": "Moderate to severe"
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "displayName": "Tomato Yellow Leaf Curl Virus",
+    "explanation": "Viral disease spread by whiteflies. Causes yellowing and curling of leaves, stunted growth, and reduced yield.",
+    "recommendation": "Remove infected plants immediately. Control whitefly population. Use virus-resistant varieties.",
+    "preventionTips": "Use yellow sticky traps for whiteflies. Plant resistant varieties. Keep area weed-free. Use insect barriers.",
+    "severity": "Very severe"
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "displayName": "Tomato Mosaic Virus",
+    "explanation": "Viral disease causing mottled light and dark green areas on leaves, stunted growth, and fruit distortion.",
+    "recommendation": "Remove infected plants. Disinfect tools. Control aphids and other vectors. Use resistant varieties.",
+    "preventionTips": "Use disease-free seeds and transplants. Control aphid populations. Sanitize equipment regularly.",
+    "severity": "Severe"
+  },
+  "Tomato___healthy": {
+    "displayName": "Healthy Tomato",
+    "explanation": "No visible signs of disease detected. Plant shows healthy growth with normal leaf color and fruit development.",
+    "recommendation": "Continue standard tomato care including proper staking, pruning, irrigation, and fertilization.",
+    "preventionTips": "Maintain proper plant spacing. Regular monitoring for pests and diseases. Balanced nutrition.",
+    "severity": "None"
+  }
+}

@@ -1,0 +1,24 @@
+Error: Cannot find module './mongodb_oidc/automated_callback_workflow'
+Require stack:
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\auth\mongodb_oidc.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\node_modules\mongodb\lib\mongo_client_auth_providers.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\node_modules\mongodb\lib\mongo_client.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\node_modules\mongodb\lib\change_stream.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\node_modules\mongodb\lib\index.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\index.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\lib\index.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\index.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\src\config\db.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\src\app.js
+- C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\[eval]
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\varun\OneDrive\Desktop\agriculture-logistics\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\auth\mongodb_oidc.js:6:39)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)

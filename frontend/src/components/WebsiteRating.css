@@ -1,0 +1,238 @@
+.website-rating-card {
+  background: linear-gradient(145deg, #1a2a1a 0%, #0d1f0d 100%);
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(34, 197, 94, 0.2);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.website-rating-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #22c55e, #16a34a, #22c55e);
+}
+
+.rating-title {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.rating-subtitle {
+  color: #94a3b8;
+  font-size: 1rem;
+  margin: 0 0 24px 0;
+}
+
+/* Stars Container */
+.stars-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.star-button {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.star-button:hover {
+  transform: scale(1.15);
+}
+
+.star-icon {
+  transition: all 0.2s ease;
+}
+
+.star-filled {
+  filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.5));
+}
+
+.star-empty {
+  opacity: 0.6;
+}
+
+.rating-text {
+  color: #fbbf24;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 12px 0 24px 0;
+  min-height: 24px;
+}
+
+/* Review Section */
+.review-section {
+  margin: 24px 0;
+  text-align: left;
+}
+
+.review-label {
+  display: block;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.review-textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid rgba(34, 197, 94, 0.2);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #f1f5f9;
+  font-size: 0.95rem;
+  resize: vertical;
+  min-height: 100px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.review-textarea::placeholder {
+  color: #64748b;
+}
+
+.review-textarea:focus {
+  outline: none;
+  border-color: #22c55e;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.1);
+}
+
+.char-hint {
+  display: block;
+  color: #f59e0b;
+  font-size: 0.8rem;
+  margin-top: 6px;
+}
+
+/* Error Message */
+.error-message {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #ef4444;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin: 16px 0;
+  font-size: 0.9rem;
+}
+
+/* Submit Button */
+.submit-review-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.submit-review-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(34, 197, 94, 0.4);
+}
+
+.submit-review-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Success Message */
+.success-message {
+  text-align: center;
+  padding: 20px;
+}
+
+.success-icon {
+  color: #22c55e;
+  margin-bottom: 16px;
+}
+
+.success-message h3 {
+  color: #22c55e;
+  font-size: 1.5rem;
+  margin: 0 0 8px 0;
+}
+
+.success-message p {
+  color: #94a3b8;
+  margin: 0;
+}
+
+/* Average Rating */
+.average-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.avg-label {
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.avg-stars {
+  display: flex;
+  gap: 2px;
+}
+
+.avg-value {
+  color: #fbbf24;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.avg-count {
+  color: #64748b;
+  font-size: 0.8rem;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .website-rating-card {
+    margin: 20px 16px;
+    padding: 30px 20px;
+  }
+  
+  .rating-title {
+    font-size: 1.5rem;
+  }
+  
+  .stars-container {
+    gap: 6px;
+  }
+  
+  .star-button svg {
+    width: 32px;
+    height: 32px;
+  }
+}
